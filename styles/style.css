@@ -1,0 +1,68 @@
+/* --- My fonts -----
+  'Hind'---->Headlines
+font-family: 'Hind', sans-serif;
+  'Cardo'--->Print
+font-family: 'Cardo', serif;
+*/
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Hind", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.skyline {
+  background-color: #52555f;
+  float: left;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 300px;
+}
+
+.sidebar {
+  line-height: 1.2;
+  text-align: left;
+  float: left;
+  width: 25%;
+  height: auto;
+  padding: 60px 40px 0 95px;
+}
+
+p {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+}
+
+.main {
+  float: left;
+  width: 68%;
+  height: auto;
+}
+
+.logo {
+  position: absolute;
+  display: inline;
+  left: 103px;
+  top: 246px;
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
